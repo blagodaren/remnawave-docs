@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Remnawave',
   description: 'Documentation for Remnawave',
+  base: '/remnawave-docs/',
   head: [
     ['link', { rel: 'icon', href: '/logo.svg' }]
   ],
